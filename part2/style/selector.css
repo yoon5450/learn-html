@@ -1,0 +1,35 @@
+p {
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+}
+
+.box {
+    background-color: hotpink;
+    width: 100px;
+    height: 100px;
+}
+
+#box {
+    background-color: azure;
+    width: 100px;
+    height: 100px;
+}
+
+#box2 {
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+}
+
+#box #box3 {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+
+#box4:hover {
+    background-color: azure;
+    transform: rotate(360deg) translateX(30px);
+    transition: all 1s;
+}
