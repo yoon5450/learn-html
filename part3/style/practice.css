@@ -1,0 +1,27 @@
+.list {
+    .text-red{
+        color: red;
+    }
+}
+
+.main-1 {
+    background-color: lightgray;
+
+    &>.box2 {
+        border: 1px solid dodgerblue;
+        background-color: yellow;
+    }
+
+    .items li:nth-child(2){
+        font-size: 20px;
+    }
+
+    .items li:nth-child(3){
+        font-size: 10px;
+        text-decoration: underline;
+    }
+}
+
+.footer-text-hover:hover{
+    color:red
+}

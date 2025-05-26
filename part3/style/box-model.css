@@ -1,0 +1,29 @@
+.container{
+    background-color: hotpink;
+}
+
+.container > div{
+    width: 200px;
+    height: 200px;
+}
+
+.box1{
+    background-color: dodgerblue;
+    margin: 0 auto; /* 컨텐츠가 1층에 있을 때만 */
+    
+}
+
+.box2{
+    background-color: yellow;
+    padding: 10px;
+    
+}
+
+.box3{
+    background-color: green;
+    border: 10px solid red;
+}
+
+.box4{
+    background-color: dodgerblue;
+}
