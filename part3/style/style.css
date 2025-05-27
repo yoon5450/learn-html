@@ -16,7 +16,7 @@
 
 .list {
     background-color: hotpink;
-
+    
     /* & = 나 자신을 지정 */
     &:hover {
         background-color: red;

@@ -1,5 +1,4 @@
-
-.container{
+.container {
     width: 600px;
     height: 600px;
     border: 1px solid black;
@@ -8,35 +7,30 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    translate:-50% -50%;
-    
-    gap : 10px;
-    align-items: center;
-    align-content: space-between;
-    flex-wrap: wrap;
+    translate: -50% -50%;
 
-    > div{
-        display: flex;
+    gap: 10px;
+    align-items: center;
+    /* align-content: space-between; */
+    /* flex-wrap: wrap; */
+
+    >div {
+        /* display: flex;
         justify-content: center;
-        align-items: center;
-        width: 150px;
+        align-items: center; */
+        /* width: 200px; */
         height: 150px;
+        flex-basis: 200px;
         background-color: dodgerblue;
+        flex-grow: 1;
     }
 
+    div:nth-child(2) {
+        /* flex-grow: 2; */
+        flex: 2;
+        order: 1;
+    }
+
+
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
